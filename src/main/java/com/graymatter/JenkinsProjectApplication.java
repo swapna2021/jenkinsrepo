@@ -11,7 +11,8 @@ public class JenkinsProjectApplication {
 
 	@GetMapping
 	public String sayHello() {
-		return "Hello Jenkins.....!";
+		
+		return "Hello Jenkins.....! this is new commit....";
 	}
 	
 	public static void main(String[] args) {
